@@ -1,0 +1,11 @@
+
+CREATE TABLE newsdata (
+    ID VARCHAR(9255),
+    Source VARCHAR(9255),
+    Category VARCHAR(9955),
+    Title VARCHAR(10000),
+    Link VARCHAR(10000),
+    PubDate VARCHAR(10000),
+    Body VARCHAR(65535), -- Adjust the maximum length as needed
+    "Number of Words" INT
+);
